@@ -8,9 +8,9 @@ This repository contains code and data for running the experiments and reproduci
 # Dataset
 Download the dataset from the following links and put them under the ```data``` directory.
 
-tSQuAD: [link](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/adebnath_masonlive_gmu_edu/EuR5t97u7kJFvPYnAAa5i3oBSpDhMPNfKBTF9rAVwraf0A?e=eXz09n)
-mSQuAD: [link](link)
-Disproportional allocations: [link](https://drive.google.com/drive/folders/1hTlUlcqd0i2BtiIdhJKUGx1tKFSGPppz?usp=sharing)
+* tSQuAD: [link](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/adebnath_masonlive_gmu_edu/EuR5t97u7kJFvPYnAAa5i3oBSpDhMPNfKBTF9rAVwraf0A?e=eXz09n)
+* mSQuAD: [link](link)
+* Disproportional allocations: [link](https://drive.google.com/drive/folders/1hTlUlcqd0i2BtiIdhJKUGx1tKFSGPppz?usp=sharing)
 
 # Running Experiments
 
