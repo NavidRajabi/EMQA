@@ -8,7 +8,8 @@ This repository contains code and data for running the experiments and reproduci
 # Dataset
 Download the dataset from the following links and put them under the ```data``` directory.
 
-* TyDiQA train set: [FullSet](link) | [SeperatedByLanguage](link)
+* TyDi QA (Original dataset from Google): [train](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-train.json) | [dev](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-dev.json)
+* TyDi QA (Seperated by language): [train](https://drive.google.com/drive/folders/1AGwrx8pjvLpu2RVK0ezQhpVl9HwGx1eQ?usp=sharing) | [dev](https://drive.google.com/drive/folders/1i13z8soDaEow2B_mL1wrge-Mb8DTyKx7?usp=sharing)
 * tSQuAD: [link](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/adebnath_masonlive_gmu_edu/EuR5t97u7kJFvPYnAAa5i3oBSpDhMPNfKBTF9rAVwraf0A?e=eXz09n)
 * mSQuAD: [link](link)
 * Disproportional allocations: [link](https://drive.google.com/drive/folders/1hTlUlcqd0i2BtiIdhJKUGx1tKFSGPppz?usp=sharing)
