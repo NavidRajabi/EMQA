@@ -6,7 +6,11 @@ This repository contains code and data for running the experiments and reproduci
 
 
 # Dataset
-Download the full dataset from [here](link) and put it under the ```data``` directory.
+Download the dataset from the following links and put them under the ```data``` directory.
+
+tSQuAD: [https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/adebnath_masonlive_gmu_edu/EuR5t97u7kJFvPYnAAa5i3oBSpDhMPNfKBTF9rAVwraf0A?e=eXz09n](link)
+mSQuAD: [link](link)
+Disproportional allocations: [https://drive.google.com/drive/folders/1hTlUlcqd0i2BtiIdhJKUGx1tKFSGPppz?usp=sharing](link)
 
 # Running Experiments
 
@@ -26,8 +30,8 @@ python run_squad.py \
   --do_train \
   --do_eval \
   --do_lower_case \
-  --train_file './tydiqa-goldp-v1.1-train.json' \
-  --predict_file './tydiqa-goldp-v1.1-dev.json' \
+  --train_file './data/tydiqa-goldp-v1.1-train.json' \
+  --predict_file './data/tydiqa-goldp-v1.1-dev.json' \
   --per_gpu_train_batch_size 24 \
   --per_gpu_eval_batch_size 24 \
   --learning_rate 3e-5 \
@@ -45,8 +49,8 @@ python run_squad.py  \
       --do_train \
       --do_eval \
       --do_lower_case \
-      --train_file './tydiqa-goldp-v1.1-train.json' \
-      --predict_file './tydiqa-goldp-v1.1-dev.json'  \
+      --train_file './data/tydiqa-goldp-v1.1-train.json' \
+      --predict_file './data/tydiqa-goldp-v1.1-dev.json'  \
       --per_gpu_train_batch_size 24 \
       --per_gpu_eval_batch_size 24 \
       --learning_rate 3e-5  \
@@ -65,7 +69,7 @@ python run_squad.py \
   --model_name_or_path='./train_cache_output/' \
   --do_eval \
   --do_lower_case \
-  --predict_file './tydiqa-goldp-v1.1-dev.json' \
+  --predict_file './data/tydiqa-goldp-v1.1-dev.json' \
   --per_gpu_eval_batch_size 24 \
   --learning_rate 3e-5 \
   --num_train_epochs 3 \
@@ -84,8 +88,8 @@ python run_squad.py \
   --do_train \
   --do_eval \
   --do_lower_case \
-  --train_file './dataset_for_fineTuning.json' \
-  --predict_file './tydiqa-goldp-v1.1-dev.json' \
+  --train_file './data/dataset_for_fineTuning.json' \
+  --predict_file './data/tydiqa-goldp-v1.1-dev.json' \
   --per_gpu_train_batch_size 24 \
   --per_gpu_eval_batch_size 24 \
   --learning_rate 3e-5 \
