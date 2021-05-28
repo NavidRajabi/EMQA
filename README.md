@@ -105,6 +105,21 @@ python run_squad.py \
 
 
 # Citation
+If you use this code, please refer to our ACL 2021 paper using the following BibTeX entry:
+~~~
+@inproceedings{debnath-etal-2021-towards,
+    title = "Towards More Equitable Question Answering Systems: How Much More Data Do You Need?",
+    author = "Debnath, Arnab  and Rajabi, Navid  and Alam, Fardina Fathmiul and Anastasopoulos, Antonios",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "",
+    doi = "",
+    pages = "",
+}
+~~~
 
 
 # License
