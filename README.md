@@ -108,5 +108,5 @@ python run_squad.py \
 
 
 # License
-
+Our code and data for EMQA are available under the [MIT License](https://github.com/NavidRajabi/EMQA/blob/main/LICENSE).
 
