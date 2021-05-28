@@ -10,6 +10,7 @@ Download the dataset from the following links and put them under the ```data``` 
 
 * TyDi QA (Original dataset from Google): [train](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-train.json) | [dev](https://storage.googleapis.com/tydiqa/v1.1/tydiqa-goldp-v1.1-dev.json)
 * TyDi QA (Seperated by language): [train](https://drive.google.com/drive/folders/1AGwrx8pjvLpu2RVK0ezQhpVl9HwGx1eQ?usp=sharing) | [dev](https://drive.google.com/drive/folders/1i13z8soDaEow2B_mL1wrge-Mb8DTyKx7?usp=sharing)
+* SQuAD (Original train set for zero-shot setting): [link](https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json)
 * tSQuAD: [link](https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/adebnath_masonlive_gmu_edu/EuR5t97u7kJFvPYnAAa5i3oBSpDhMPNfKBTF9rAVwraf0A?e=eXz09n)
 * mSQuAD: [link](https://drive.google.com/drive/folders/1vlLgllRZubvQPr4N0Obg0BDH3f-yuLQK?usp=sharing)
 * Disproportional allocations: [link](https://drive.google.com/drive/folders/1hTlUlcqd0i2BtiIdhJKUGx1tKFSGPppz?usp=sharing)
